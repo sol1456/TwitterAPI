@@ -1,5 +1,21 @@
 # TwitterAPI
 
+## Description
+
+	
+	Python2.7.1.3
+
+	This repository uses OAuth authentication of 
+	Twitter API with requests_oauthlib
+
+	Install the package with pip
+
+	>>> pip install requests_oauthlib
+
+	
+
+
+
 ## function description
 
 
@@ -52,7 +68,21 @@
 
 
 	getBlockedUserIds()
-		- Get blocked user ids
+		* Parameters
+
+			- int cursor : Specify the cursor indicating the acquisition start position
+
+			- bool stringify_ids : Whether to accept the value as a character string
+
+
+
+	getBlockedUserList()
+		* Parameters
+
+			- int cursor : Specify the cursor indicating the acquisition start position
+
+			- bool skip_status : Whether to exclude the status property in the user object
+			- bool include_entities : Whether to include entities property in tweet object
 
 
 	getUserByScreenName()
