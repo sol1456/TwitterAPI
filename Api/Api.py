@@ -11,14 +11,14 @@ class Client:
 		         AccessToken,
 		         ConsumerSecret,
 		         AccesssTokenSecret
-             ):
+   ):
 
       self.client = OAuth1Session(
                  ConsumerKey,
                  ConsumerSecret,
                  AccessToken,
                  AccesssTokenSecret
-                 )
+      )
 
 
    def request(self, method, url, params=None):
