@@ -33,7 +33,6 @@ class Client:
 
 
 
-
       def tweetText(self, text):
         return self.request('POST', PATH.TWEET, {'status': text})
 
@@ -68,10 +67,6 @@ class Client:
 
       def getFollowerByScreenName(self, screenName):
         return self.request('GET', PATH.FOLLOWERS, {'screen_name': screenName})
-
-
-
-
 
 
 
