@@ -3,7 +3,7 @@
 ## Description
 
 	
-	Python2.7.1.3
+	Python 2.7.1.3
 
 	This repository uses OAuth authentication of 
 	Twitter API with requests_oauthlib
